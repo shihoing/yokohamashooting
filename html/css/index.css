@@ -405,6 +405,7 @@ a {
 .schedule-list li {
   display: flex;
   align-items: flex-start;
+  flex-wrap: wrap;
   gap: 16px;
   padding: 12px 0;
   border-bottom: 1px solid var(--c-border);
