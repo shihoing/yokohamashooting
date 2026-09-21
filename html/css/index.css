@@ -370,6 +370,13 @@ a {
   background: var(--c-bg);
 }
 
+.schedule-note {
+  margin: 0 0 24px;
+  font-size: 17px;
+  line-height: 1.8;
+  color: var(--c-sub);
+}
+
 .schedule-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -505,10 +512,42 @@ a {
   white-space: nowrap;
 }
 
+.result-item-img {
+  display: flex;
+  width: 100%;
+  padding: 0 24px;
+  box-sizing: border-box;
+  gap: 12px;
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: thin;
+}
+
+.result-item-img img {
+  flex: 1 0 0;
+  width: 25%;
+  max-width: none;
+  height: auto;
+  object-fit: cover;
+  min-width: 180px;
+}
+
 /* スコア表 */
 .score-table-wrap {
   overflow-x: auto;
   padding: 0 24px 20px;
+}
+
+.score-table-title {
+  padding: 16px 24px;
+  font-size: 18px;
+}
+
+.team-result-summary {
+  padding: 16px 24px;
+  margin: 0;
+  font-weight: 700;
+  color: var(--c-sub);
 }
 
 .score-table {
